@@ -74,23 +74,13 @@ return [
         "Longest Week Streak" => "দীর্ঘতম সপ্তাহ স্ট্রিক",
         "Present" => "বর্তমান",
     ],
-    "ca" => [
-        "Total Contributions" => "Aportacions totals",
-        "Current Streak" => "Ratxa actual",
-        "Longest Streak" => "Ratxa més llarga",
-        "Week Streak" => "Ratxa setmanal",
-        "Longest Week Streak" => "Ratxa setmanal més llarga",
-        "Present" => "Actual",
-        "Excluding" => "Excloent",
-    ],
     "da" => [
-        "Total Contributions" => "Samlet antal bidrag",
-        "Current Streak" => "Bidrag i træk",
-        "Longest Streak" => "Flest bidrag i træk",
-        "Week Streak" => "Ugentlige bidrag i træk",
-        "Longest Week Streak" => "Flest ugentlige bidrag i træk",
-        "Present" => "Nuværende",
-        "Excluding" => "Ekskluderer",
+        "Total Contributions" => "Totalt Antal Bidrag",
+        "Current Streak" => "Nuværende i Træk",
+        "Longest Streak" => "Længst i Træk",
+        "Week Streak" => "Uger i Træk",
+        "Longest Week Streak" => "Mest Uger i Træk",
+        "Present" => "I Dag",
     ],
     "de" => [
         "Total Contributions" => "Gesamte Beiträge",
@@ -117,7 +107,6 @@ return [
         "Week Streak" => "Racha Semanal",
         "Longest Week Streak" => "Racha Semanal Más Larga",
         "Present" => "Presente",
-        "Excluding" => "Excluyendo",
     ],
     "fa" => [
         "rtl" => true,
@@ -135,7 +124,6 @@ return [
         "Week Streak" => "Séquence de la semaine",
         "Longest Week Streak" => "Plus longue séquence hebdomadaire",
         "Present" => "Aujourd'hui",
-        "Excluding" => "À l'exclusion de",
     ],
     "he" => [
         "rtl" => true,
@@ -163,15 +151,6 @@ return [
         "Longest Week Streak" => "pi long tras semèn",
         "Present" => "Prezan",
     ],
-    "hu" => [
-        "Total Contributions" => "Összes hozzájárulás",
-        "Current Streak" => "Jelenlegi sorozat",
-        "Longest Streak" => "Leghosszabb sorozat",
-        "Week Streak" => "Heti sorozat",
-        "Longest Week Streak" => "Leghosszabb heti sorozat",
-        "Present" => "Jelen",
-        "Excluding" => "Kivéve",
-    ],
     "hy" => [
         "Total Contributions" => "Ընդհանուր\nներդրումը",
         "Current Streak" => "Ընթացիկ շարք",
@@ -187,7 +166,6 @@ return [
         "Week Streak" => "Aksi Mingguan",
         "Longest Week Streak" => "Aksi Mingguan Terpanjang",
         "Present" => "Sekarang",
-        "Excluding" => "Tidak termasuk",
     ],
     "it" => [
         "Total Contributions" => "Contributi Totali",
@@ -249,7 +227,6 @@ return [
         "Week Streak" => "Week Serie",
         "Longest Week Streak" => "Langste Week Serie",
         "Present" => "Vandaag",
-        "Excluding" => "Exclusief",
     ],
     "pl" => [
         "Total Contributions" => "Suma Kontrybucji",
@@ -275,7 +252,6 @@ return [
         "Week Streak" => "Sequência Semanal",
         "Longest Week Streak" => "Maior Sequência Semanal",
         "Present" => "Presente",
-        "Excluding" => "Exceto",
     ],
     "ru" => [
         "Total Contributions" => "Общий вклад",
@@ -341,7 +317,6 @@ return [
         "Week Streak" => "Haftalık Seri",
         "Longest Week Streak" => "En Uzun Haftalık Seri",
         "Present" => "Şu an",
-        "Excluding" => "Hariç",
     ],
     "uk" => [
         "Total Contributions" => "Загальний вклад",
@@ -369,7 +344,6 @@ return [
         "Week Streak" => "Chuỗi tuần",
         "Longest Week Streak" => "Chuỗi tuần lớn nhất",
         "Present" => "Hiện tại",
-        "Excluding" => "Ngoại trừ",
     ],
     "yo" => [
         "Total Contributions" => "Lapapọ ilowosi",
@@ -378,7 +352,6 @@ return [
         "Week Streak" => "ṣiṣan ọsẹ",
         "Longest Week Streak" => "gunjulo ọsẹ ṣiṣan",
         "Present" => "lọwọlọwọ",
-        "Excluding" => "Yato si",
     ],
     "zh" => "zh_Hans",
     "zh_Hans" => [
@@ -388,7 +361,6 @@ return [
         "Week Streak" => "周连续贡献",
         "Longest Week Streak" => "最长周连续贡献",
         "Present" => "至今",
-        "Excluding" => "除外",
     ],
     "zh_Hant" => [
         "Total Contributions" => "合計貢獻",
@@ -397,6 +369,5 @@ return [
         "Week Streak" => "周連續貢獻",
         "Longest Week Streak" => "最常周連續貢獻",
         "Present" => "至今",
-        "Excluding" => "除外",
     ],
 ];

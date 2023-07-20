@@ -14,7 +14,7 @@ final class TranslationsTest extends TestCase
      */
     public function testAllPhrasesValid(): void
     {
-        $translations = include "src/translations.php";
+        $translations = include "api/translations.php";
         $locales = array_keys($translations);
         $valid_phrases = [
             "rtl",
@@ -46,7 +46,7 @@ final class TranslationsTest extends TestCase
      */
     public function testLocalesSortedAlphabetically(): void
     {
-        $translations = include "src/translations.php";
+        $translations = include "api/translations.php";
         $locales = array_keys($translations);
         // check that "en" is first
         $this->assertEquals("en", $locales[0]);
@@ -67,7 +67,7 @@ final class TranslationsTest extends TestCase
      */
     public function testKeysNormalized(): void
     {
-        $translations = include "src/translations.php";
+        $translations = include "api/translations.php";
         $locales = array_keys($translations);
         foreach ($locales as $locale) {
             // normalize locale code
@@ -82,7 +82,7 @@ final class TranslationsTest extends TestCase
      */
     public function testGetTranslations(): void
     {
-        $translations = include "src/translations.php";
+        $translations = include "api/translations.php";
         $en = $translations["en"];
         // test alias
         $this->assertEquals($translations["zh_Hans"] + $en, getTranslations("zh"), "Alias not resolved");
